@@ -1,0 +1,13 @@
+{
+  "name": "mometa-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "pnpm -F app dev",
+    "sfc:test": "pnpm -F vue-compiler-sfc-test dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/vue@next"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"></div>
+</body>
+<script>
+    const Counter = {
+        data() {
+            return {
+                counter: 0
+            }
+        },
+        render(){
+            return Vue.h('h1','hello-world')
+        }
+    }
+
+    Vue.createApp(Counter).mount('#app')
+</script>
+</html>
