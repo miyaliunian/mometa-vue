@@ -17,10 +17,10 @@ const toString = (obj: any) => {
 
 const InjectMometaSFC = (code: string): string => {
   const descriptor = parse(code).descriptor
-  const template = code.split('\n')!
+  const template = code.split('\n')
   const ast = descriptor.template?.ast!
 
-  const DFS = (node) => {
+  const DFS = (node: any) => {
     if (node.type === 1 && !node.tagType) {
       const children = node.children
       for (let i = children.length - 1; i >= 0; i--) {
