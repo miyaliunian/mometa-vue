@@ -19,6 +19,6 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "vite/*.ts"
-  ],
+, "vite/plugin-vue-SFC/InjectMometaElement.ts", "vite/plugin-vue-SFC/InjectMometaElement.ts", "vite/plugin-vue-SFC/InjectMometaSFC.ts", "vite/plugin-vue-SFC/InjectMometaSFC.ts", "vite/plugin-vue-SFC/vite-plugin-vue-mometa.ts", "vite/plugin-vue-SFC/vite-plugin-vue-mometa.ts"  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

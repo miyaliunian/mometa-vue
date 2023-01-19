@@ -1,3 +1,4 @@
-import MometaVue from './vite-plugin-vue-mometa'
+import MometaVueSFC from './plugin-vue-SFC/vite-plugin-vue-mometa'
+import MometaVueJSX from './plugin-vue-JSX/index'
 
-export default MometaVue
+export { MometaVueSFC, MometaVueJSX }
